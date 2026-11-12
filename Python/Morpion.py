@@ -11,8 +11,9 @@ reponseLignes = int(input("quelle ligne (0,1,2) : "))
 reponseCol = int(input("quelle colone (0,1,2) : "))
 
 def changement(ligne, colone, grille,symbole):
+    #ici on chope la lignepuis la colone entré par le joueur ratarcher a son symbole, apres on y change l'element de la grille au coordonés indiqué
     grille[ligne][colone] = symbole
-    
+
 grille = [
         ["", "", ""],
         ["", "", ""],
